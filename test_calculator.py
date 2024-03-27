@@ -28,4 +28,4 @@ def test_divide(calculator):
 
 def test_divide_by_zero(calculator):
     with pytest.raises(ValueError):
-        calculator.divide(6, 1)
+        calculator.divide(6, 0)
